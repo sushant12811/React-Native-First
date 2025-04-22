@@ -1,7 +1,7 @@
 import {View, Text} from 'react-native'
 import React from 'react'
 
-const Save = () => {
+const Saved = () => {
     return(
         <View>
             <Text>Save</Text>
@@ -9,4 +9,4 @@ const Save = () => {
     )
 }
 
-export default Save;
+export default Saved;

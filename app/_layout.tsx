@@ -1,16 +1,20 @@
 import { Stack } from "expo-router"; //
 import './globals.css'
 
-export default function RootLayout() {
+export default function RootLayout() { // default root layout - highest navigation structure.
   return <Stack>            //Stack navigator- manages multiple screens inside it.
     <Stack.Screen           //This is a single Screen name ("tabs")and options helps not to show header in that screen
       name = "(tabs)"
-      options = {{headerShown : false}}
+      options = {{
+        headerShown : false
+      }}
     />
 
     <Stack.Screen    //This is a single Screen name ("movie/[id]")and options helps not to show header in that screen
     name = "movie/[id]"
-    options = {{headerShown : false}}
+    options = {{
+      headerShown : false
+    }}
     />
 
   </Stack>;
