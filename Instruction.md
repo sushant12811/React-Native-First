@@ -13,3 +13,6 @@
 
 - npx expo start
 
+Instruction to install CSS, tailwindcss(nativeWind) recommended
+-> npm install nativewind tailwindcss react-native-reanimated react-native-safe-area-context
+
